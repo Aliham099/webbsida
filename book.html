@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Book</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_label">
+      <h1>Sol Palmera</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="nav_container">
+      <div class="nav_item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="nav_item">
+        <a href="book.html" class="active">Book</a>
+      </div>
+      <div class="nav_item">
+        <a href="find.html">Find</a>
+      </div>
+      <div class="nav_item">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="form_container">
+      <div class="form">
+        <h1 class="center_label">Book Here!</h1>
+        <label for="name" class="center_label">Name:</label>
+        <input type="text" class="input_item" name="name" placeholder="Name" value="" id="name">
+        <label for="email" class="center_label">E-post Adress:</label>
+        <input type="text" class="input_item" name="email" placeholder="E-post adress" value="" id="email">
+        <label for="phone" class="center_label">Mobilnumber</label>
+        <input type="text" class="input_item" name="phone" placeholder="Number" value="" id="phone">
+        <label for="nights" class="center_label">How many nights you want to book?</label>
+        <input type="text" class="input_item" name="nights" placeholder="1 night?" value="" id="nights">
+        <label for="room" class="center_label">How many beds do you want?</label>
+        <input type="text" class="input_item" name="room" placeholder="2 beds?" value="" id="room">
+        <label for="other" class="center_label">Bed size?</label>
+        <textarea class="input_item" name="other" placeholder="Normal or Kingsize?" id="other"></textarea>
+        <h3 class="center_label">Total Price:</h3>
+        <button type="button" class="button" name="button">Send</button>
+      </div>
+      <div class="aside">
+        <div class="list_container">
+          <h1 class="center_label">Prices:</h1>
+          <ul class="list">
+            <li> One room with one bed: 200 kr/night</li>
+            <li> One room with two beds: 300 kr/night</li>
+            <li> One room with one kingsize bed: 500 kr/night</li>
+            <li> One room with two kingsize beds: 700 kr/night</li>
+            <li> Family Deal: two rooms with two kingsize beds: 1000 kr/night</li>
+          </ul>
+        </div>
+        <br>
+        <div class="booking_img_container">
+          <img src="img/room.jpeg" alt="" class="booking_img" height="400">
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <p>Telephone:<a class="no-hover" href="tel:076-394-55-04"> 076 394 55 04</a></p>
+    <p>E-post: <a class="no-hover" href="mailto:ahammoud@gmail.com"> ahammoud099@gmail.com</a></p>
+        <p>Tursitinfo: <a class="no-hover" href="https://www.malmocity.se/en/tourist-information/"> Malmöcity</a></p>
+  </footer>
+
+</body>
+
+</html>
